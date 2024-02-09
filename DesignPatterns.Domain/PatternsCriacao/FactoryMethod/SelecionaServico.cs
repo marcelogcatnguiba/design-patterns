@@ -6,7 +6,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
 {
     public class SelecionaServico : ServicoFactory
     {
-        public override IServico CriarProduto(TipoServico tipoServico)
+        public override IServico CriarServico(TipoServico tipoServico)
         {
             switch (tipoServico)
             {

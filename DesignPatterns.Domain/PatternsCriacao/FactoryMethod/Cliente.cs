@@ -22,7 +22,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
                 var servico = int.Parse(Console.ReadLine()!);
 
                 System.Console.WriteLine("\n");
-                selecionaServico.CriarProduto((TipoServico)servico);
+                selecionaServico.CriarServico((TipoServico)servico);
                 System.Console.WriteLine("\n");
 
                 System.Console.Write("Deseja continuar? : 1 = [Sim]\t2 = [Nao]:");
