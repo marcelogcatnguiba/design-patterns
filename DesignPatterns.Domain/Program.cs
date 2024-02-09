@@ -1,5 +1,5 @@
-﻿using DesignPatterns.Domain.PatternsCriacao.AbstractFactory;
+﻿using DesignPatterns.Domain.PatternsCriacao.Singleton;
 
 var cliente = new Cliente();
 
-cliente.ConsultarRotinaAluno();
+cliente.ConsumirContexto();
