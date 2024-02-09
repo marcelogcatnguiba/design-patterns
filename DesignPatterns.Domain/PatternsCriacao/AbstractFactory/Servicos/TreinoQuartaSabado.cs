@@ -10,7 +10,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.AbstractFactory.Servicos
         }
         public void ObterTreino()
         {
-            throw new NotImplementedException();
+            System.Console.WriteLine("Obtendo treino QuartaSabado ...");
         }
     }
 }

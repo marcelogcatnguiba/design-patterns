@@ -14,7 +14,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.AbstractFactory.Servicos
         }
         public void ObterDieta()
         {
-            throw new NotImplementedException();
+            System.Console.WriteLine("Obtendo dieta TercaSexta ...");
         }
     }
 }

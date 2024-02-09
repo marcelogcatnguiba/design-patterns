@@ -1,5 +1,5 @@
-﻿using DesignPatterns.Domain.PatternsCriacao.FactoryMethod;
+﻿using DesignPatterns.Domain.PatternsCriacao.AbstractFactory;
 
 var cliente = new Cliente();
 
-cliente.ExecutarCriacaoProduto();
+cliente.ConsultarRotinaAluno();

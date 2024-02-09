@@ -6,11 +6,11 @@ namespace DesignPatterns.Domain.PatternsCriacao.AbstractFactory.Servicos
     {
         public TreinoTercaSexta()
         {
-            System.Console.WriteLine("Criando treino TercaSexta");
+            System.Console.WriteLine("Criando Treino TercaSexta ...");
         }
         public void ObterTreino()
         {
-            throw new NotImplementedException();
+            System.Console.WriteLine("Obtendo treino TercaSexta ...");
         }
     }
 }
