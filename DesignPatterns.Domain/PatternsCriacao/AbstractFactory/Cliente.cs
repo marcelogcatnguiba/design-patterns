@@ -10,7 +10,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.AbstractFactory
     {
         public void ConsultarRotinaAluno()
         {
-            IFactory factory = null;
+            IFactory? factory;
 
             var continuar = true;
             while (continuar)

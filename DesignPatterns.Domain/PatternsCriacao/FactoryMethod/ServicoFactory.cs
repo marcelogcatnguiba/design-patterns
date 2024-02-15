@@ -5,6 +5,6 @@ namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
 {
     public abstract class ServicoFactory
     {
-        public abstract IServico CriarServico(TipoServico tipoServico);
+        public abstract IServico? CriarServico(TipoServico? tipoServico);
     }
 }

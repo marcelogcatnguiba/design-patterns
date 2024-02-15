@@ -19,6 +19,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
                 System.Console.WriteLine("3 - Cobertura");
                 System.Console.WriteLine("**************************************\n");
                 System.Console.Write("Digite o servico que desaja usar: ");
+
                 var servico = int.Parse(Console.ReadLine()!);
 
                 System.Console.WriteLine("\n");
@@ -26,13 +27,12 @@ namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
                 System.Console.WriteLine("\n");
 
                 System.Console.Write("Deseja continuar? : 1 = [Sim]\t2 = [Nao]:");
-
                 var resp = int.Parse(Console.ReadLine()!);
+
                 if (resp == 2)
                 {
                     continuar = false;
                 }
-
             }
         }
     }
