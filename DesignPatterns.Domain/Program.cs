@@ -1,6 +1,5 @@
-﻿// using DesignPatterns.Domain.PatternsEstruturais.Decorator;
-using DesignPatterns.Domain.PatternsCriacao.FactoryMethod;
+﻿using DesignPatterns.Domain.PatternComportamental.Observer;
 
-var cliente = new Cliente();
+var enviarEmail = new EnviarEmail();
+enviarEmail.Enviar();
 
-cliente.ExecutarCriacaoProduto();
