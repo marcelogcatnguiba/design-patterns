@@ -1,5 +1,6 @@
-﻿using DesignPatterns.Domain.PatternComportamental.Observer;
+﻿using DesignPatterns.Domain.PatternsEstruturais.Adapter;
 
-var enviarEmail = new EnviarEmail();
-enviarEmail.Enviar();
+ClientCloud cliente = new ClientCloud();
+
+cliente.ProcessarContas("junho");
 
