@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Domain.PatternsEstruturais.Adapter;
+﻿using DesignPatterns.Domain.PatternsCriacao.Builder;
 
-ClientCloud cliente = new ClientCloud();
+var cliente = new ClientBuilder();
 
-cliente.ProcessarContas("junho");
+cliente.ConsumirBuilders();
 
