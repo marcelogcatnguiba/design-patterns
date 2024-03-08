@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Domain.PatternsCriacao.Prototype;
+﻿using DesignPatterns.Domain.PatternsEstruturais.Composite;
 
 var cliente = new Cliente();
 
-cliente.ConsumirGerenciador();
+cliente.EfetuarCompra();
 
