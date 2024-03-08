@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Domain.PatternsCriacao.Builder;
+﻿using DesignPatterns.Domain.PatternsCriacao.Prototype;
 
-var cliente = new ClientBuilder();
+var cliente = new Cliente();
 
-cliente.ConsumirBuilders();
+cliente.ConsumirGerenciador();
 

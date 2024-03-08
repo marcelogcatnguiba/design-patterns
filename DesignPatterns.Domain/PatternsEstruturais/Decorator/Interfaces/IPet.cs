@@ -7,7 +7,7 @@ namespace DesignPatterns.Domain.PatternsEstruturais.Decorator.Interfaces
 {
     public interface IPet
     {
-        public string GetNomeServico();
-        public double GetValorServico();
+        string GetNomeServico();
+        double GetValorServico();
     }
 }
