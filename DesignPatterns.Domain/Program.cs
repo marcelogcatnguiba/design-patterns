@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Domain.PatternsEstruturais.Composite;
+﻿using DesignPatterns.Domain.PatternsEstruturais.Proxy;
 
-var cliente = new Cliente();
+var cliente = new ClientVPN();
 
-cliente.EfetuarCompra();
+cliente.TentarConexaoVPN();
 
