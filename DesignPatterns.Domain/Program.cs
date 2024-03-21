@@ -41,9 +41,14 @@
 // var popUp = new ApresentaPopUp();
 // popUp.ApresentarHabilidades();
 
-using DesignPatterns.Domain.PatternComportamental.Interpreter.ExemploEquipamento;
+// using DesignPatterns.Domain.PatternComportamental.Interpreter.ExemploEquipamento;
 
-var teste = new TestarEquipamentos();
-teste.TestaEquip();
+// var teste = new TestarEquipamentos();
+// teste.TestaEquip();
 
 #endregion
+
+using DesignPatterns.Domain.PatternsEstruturais.Flyweight.Flyweights;
+
+var client = new Cliente();
+client.ConsumirFlyweight();
