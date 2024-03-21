@@ -36,9 +36,14 @@
 #endregion
 
 #region  Interpreter
-using DesignPatterns.Domain.PatternComportamental.Interpreter.Jumanji;
+// using DesignPatterns.Domain.PatternComportamental.Interpreter.Jumanji;
 
-var popUp = new ApresentaPopUp();
-popUp.ApresentarHabilidades();
+// var popUp = new ApresentaPopUp();
+// popUp.ApresentarHabilidades();
+
+using DesignPatterns.Domain.PatternComportamental.Interpreter.ExemploEquipamento;
+
+var teste = new TestarEquipamentos();
+teste.TestaEquip();
 
 #endregion
