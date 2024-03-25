@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Domain.PatternsEstruturais.Flyweight.Flyweights
+namespace DesignPatterns.Domain.PatternsEstruturais.Flyweight
 {
     public class Cliente
     {
@@ -23,7 +23,7 @@ namespace DesignPatterns.Domain.PatternsEstruturais.Flyweight.Flyweights
             {
                 var cor = ct.Split(":")[0];
                 var tamanho = ct.Split(":")[1];
-                var nave = factory.GetNave(cor);
+                var nave = factory.GetNave(cor); //Cor pois é deterministico nesse cenário
 
                 nave.Exibir(cor, tamanho);
             }

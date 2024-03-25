@@ -48,7 +48,10 @@
 
 #endregion
 
-using DesignPatterns.Domain.PatternsEstruturais.Flyweight.Flyweights;
+#region Flyweight
+using DesignPatterns.Domain.PatternsEstruturais.Flyweight;
 
 var client = new Cliente();
 client.ConsumirFlyweight();
+
+#endregion
