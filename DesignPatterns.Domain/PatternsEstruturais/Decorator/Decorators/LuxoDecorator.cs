@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DesignPatterns.Domain.PatternsEstruturais.Decorator.Interfaces;
 
 namespace DesignPatterns.Domain.PatternsEstruturais.Decorator.Decorators

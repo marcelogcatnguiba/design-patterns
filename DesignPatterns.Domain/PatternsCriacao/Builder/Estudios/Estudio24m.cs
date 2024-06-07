@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace DesignPatterns.Domain.PatternsCriacao.Builder.Estudios
 {
     public class Estudio24m : Estudio

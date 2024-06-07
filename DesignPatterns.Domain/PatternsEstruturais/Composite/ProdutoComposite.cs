@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Xml;
 using DesignPatterns.Domain.PatternsEstruturais.Composite.Model;
 
 namespace DesignPatterns.Domain.PatternsEstruturais.Composite

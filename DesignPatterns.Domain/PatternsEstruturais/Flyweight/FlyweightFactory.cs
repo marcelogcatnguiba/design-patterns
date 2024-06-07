@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DesignPatterns.Domain.PatternsEstruturais.Flyweight.Flyweights;
 using DesignPatterns.Domain.PatternsEstruturais.Flyweight.Model;
 

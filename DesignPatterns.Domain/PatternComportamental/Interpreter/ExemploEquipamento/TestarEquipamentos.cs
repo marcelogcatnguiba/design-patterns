@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using DesignPatterns.Domain.PatternComportamental.Interpreter.ExemploEquipamento.Armas;
 using DesignPatterns.Domain.PatternComportamental.Interpreter.ExemploEquipamento.Prefixos;
 using DesignPatterns.Domain.PatternComportamental.Interpreter.ExemploEquipamento.Sulfixos;
