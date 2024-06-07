@@ -1,4 +1,4 @@
-using DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Interfaces;
+using DesignPatterns.Domain.PatternsCriacao.Factory.Interfaces;
 
 namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Servicos
 {

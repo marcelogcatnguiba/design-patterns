@@ -1,4 +1,4 @@
-using DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Enums;
+using DesignPatterns.Domain.PatternsCriacao.Factory.Enums;
 
 namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
 {
@@ -21,7 +21,7 @@ namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
                 System.Console.Write("Digite o servico que desaja usar: ");
 
                 var servico = int.Parse(Console.ReadLine()!);
-
+                
                 System.Console.WriteLine("\n");
                 selecionaServico.CriarServico((TipoServico)servico);
                 System.Console.WriteLine("\n");

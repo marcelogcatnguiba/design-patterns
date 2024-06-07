@@ -1,4 +1,4 @@
-namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Interfaces
+namespace DesignPatterns.Domain.PatternsCriacao.Factory.Interfaces
 {
     public interface IServico
     {

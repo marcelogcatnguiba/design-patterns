@@ -49,9 +49,30 @@
 #endregion
 
 #region Flyweight
-using DesignPatterns.Domain.PatternsEstruturais.Flyweight;
 
-var client = new Cliente();
-client.ConsumirFlyweight();
+// using DesignPatterns.Domain.PatternsEstruturais.Flyweight;
+
+// var client = new Cliente();
+// client.ConsumirFlyweight();
 
 #endregion
+
+using DesignPatterns.Domain.PatternComportamental.Template;
+
+var client = new ClienteTemplate();
+var comando = args[0];
+
+switch(comando)
+{
+    case "xml":
+        client.ConsumirEndpointXML();
+        break;
+
+    case "json":
+        client.ConsumirEndpointJSON();
+        break;
+    
+    default:
+        System.Console.WriteLine("Comando invalido !!");
+        break;
+}

@@ -1,5 +1,5 @@
-using DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Interfaces;
-using DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Enums;
+using DesignPatterns.Domain.PatternsCriacao.Factory.Interfaces;
+using DesignPatterns.Domain.PatternsCriacao.Factory.Enums;
 
 namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod
 {

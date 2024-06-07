@@ -1,4 +1,4 @@
-namespace DesignPatterns.Domain.PatternsCriacao.FactoryMethod.Enums
+namespace DesignPatterns.Domain.PatternsCriacao.Factory.Enums
 {
     public enum TipoServico
     {
