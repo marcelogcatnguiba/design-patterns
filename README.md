@@ -2,7 +2,7 @@
 Estudo sobre design patterns com csharp
 
 ## Patterns Comportamentais
-- [ ] Template
+- [x] Template
 - [x] Interpreter
 - [x] Observer
 - [ ] Visitor

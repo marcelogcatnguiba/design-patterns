@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace DesignPatterns.Domain.PatternComportamental.Template
 {
-    public class ConvertJSON(string json) : ProcessaDados(json)
+    public class ConvertJSON(string json) : ProcessaDados(json: json)
     {
         public override void ProcessarJSON()
         {

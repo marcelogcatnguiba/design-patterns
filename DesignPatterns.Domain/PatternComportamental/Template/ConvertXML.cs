@@ -5,7 +5,7 @@ using System.Xml;
 
 namespace DesignPatterns.Domain.PatternComportamental.Template
 {
-    public class ConvertXML(string xml) : ProcessaDados(xml)
+    public class ConvertXML(string xml) : ProcessaDados(xml: xml)
     {
         public override void ProcessarXML()
         {
