@@ -57,22 +57,33 @@
 
 #endregion
 
-using DesignPatterns.Domain.PatternComportamental.Template;
+#region Template
 
-var client = new ClienteTemplate();
-var comando = args[0];
+// using DesignPatterns.Domain.PatternComportamental.Template;
 
-switch(comando)
-{
-    case "xml":
-        client.ConsumirEndpointXML();
-        break;
+// var client = new ClienteTemplate();
+// var comando = args[0];
 
-    case "json":
-        client.ConsumirEndpointJSON();
-        break;
-    
-    default:
-        System.Console.WriteLine("Comando invalido !!");
-        break;
-}
+// switch(comando)
+// {
+//     case "xml":
+//         client.ConsumirEndpointXML();
+//         break;
+
+//     case "json":
+//         client.ConsumirEndpointJSON();
+//         break;
+
+//     default:
+//         System.Console.WriteLine("Comando invalido !!");
+//         break;
+// }
+
+#endregion
+
+#region Facade
+using DesignPatterns.Domain.PatternsEstruturais.Facade;
+
+ClientFacade.ConsumirComplexidade();
+
+#endregion
