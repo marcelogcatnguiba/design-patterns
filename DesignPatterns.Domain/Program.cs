@@ -82,8 +82,18 @@
 #endregion
 
 #region Facade
-using DesignPatterns.Domain.PatternsEstruturais.Facade;
+// using DesignPatterns.Domain.PatternsEstruturais.Facade;
 
-ClientFacade.ConsumirComplexidade();
+// ClientFacade.ConsumirComplexidade();
+
+#endregion
+
+#region Command
+
+using DesignPatterns.Domain.PatternComportamental.Command;
+
+var client = new Client();
+
+client.FalarComandos();
 
 #endregion
