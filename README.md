@@ -26,6 +26,6 @@ Estudo sobre design patterns com csharp
 - [x] Bridge
 - [x] Composite
 - [x] Decorator
-- [ ] Facade
+- [x] Facade
 - [x] Flyweight
 - [x] Proxy
