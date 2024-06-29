@@ -101,7 +101,20 @@
 #region Visitor
 
 using DesignPatterns.Domain.PatternComportamental.Visitor;
+using DesignPatterns.Domain.PatternComportamental.Visitor.Produtos;
 
-Fiscal.CalcularImpostos();
+List<ProdutoPerecivel> produtoPerecivels =
+[
+    new("Especiarias", 2500),
+    new("Poupas de frutas", 2000)
+];
+
+List<ProdutoNaoPerecivel> produtoNaoPerecivels = 
+[
+    new("Antena WiFi", 500),
+    new("Perfume frances", 1000)
+];
+
+Fiscal.CalcularImpostos(produtoPerecivels, produtoNaoPerecivels);
 
 #endregion

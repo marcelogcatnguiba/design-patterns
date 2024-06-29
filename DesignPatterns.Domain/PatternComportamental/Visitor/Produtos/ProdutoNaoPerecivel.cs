@@ -8,5 +8,9 @@ namespace DesignPatterns.Domain.PatternComportamental.Visitor.Produtos
         public double PesoProduto { get; set; } = peso;
 
         public double GetImposto(IVisitor visitor) => visitor.CalcularImpostoProdutoNaoPerecivel(this);
+        public override string ToString()
+        {
+            return $"Produto: {NomeProduto}, Peso: {PesoProduto}";
+        }
     }
 }

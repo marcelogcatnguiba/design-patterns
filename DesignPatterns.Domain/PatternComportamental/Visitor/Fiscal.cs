@@ -6,50 +6,41 @@ namespace DesignPatterns.Domain.PatternComportamental.Visitor
 {
     public class Fiscal
     {
-        public static void CalcularImpostos()
+        public static void CalcularImpostos(
+            List<ProdutoPerecivel> produtoPerecivels, List<ProdutoNaoPerecivel> produtoNaoPerecivels)
         {
-            CalcularProdutosPereciveis();
+            System.Console.WriteLine("Calculando imposto produtos NAO pereciveis:\n");
+            CalcularProdutosPereciveis(produtoPerecivels);
+            
+
             System.Console.WriteLine(new String('-', 40));
-            CalcularProdutosNaoPereciveis();
+
+            System.Console.WriteLine("Calculando imposto produtos pereciveis:\n");
+            CalcularProdutosNaoPereciveis(produtoNaoPerecivels);
+            
         }
 
-        private static void CalcularProdutosNaoPereciveis()
+        private static void CalcularProdutosNaoPereciveis(List<ProdutoNaoPerecivel> produtoNaoPerecivels)
         {
-            List<ProdutoNaoPerecivel> produtoNaoPerecivels = 
-            [
-                new("Antena WiFi", 500),
-                new("Perfume frances", 1000)
-            ];
-
-            System.Console.WriteLine("Calculando imposto produtos NAO pereciveis:\n");
-
             foreach(var p in produtoNaoPerecivels)
             {
-                System.Console.WriteLine($"Produto: {p.NomeProduto}, Peso: {p.PesoProduto}");
+                System.Console.WriteLine(p);
 
                 foreach(var v in GetVisitors())
-                    v.CalcularImpostoProdutoNaoPerecivel(p);
+                    p.GetImposto(v);
                 
                 System.Console.WriteLine("\n");
             }
         }
 
-        private static void CalcularProdutosPereciveis()
+        private static void CalcularProdutosPereciveis(List<ProdutoPerecivel> produtoPerecivels)
         {
-            List<ProdutoPerecivel> produtoPerecivels =
-            [
-                new("Especiarias", 2500),
-                new("Poupas de frutas", 2000)
-            ];
-
-            System.Console.WriteLine("Calculando imposto produtos pereciveis:\n");
-
             foreach(var p in produtoPerecivels)
             {
-                System.Console.WriteLine($"Produto: {p.NomeProduto}, Peso: {p.PesoProduto}");
+                System.Console.WriteLine(p);
 
                 foreach(var v in GetVisitors())
-                    v.CalcularImpostoProdutoPerecivel(p);
+                    p.GetImposto(v);
                 
                 System.Console.WriteLine("\n");
             }

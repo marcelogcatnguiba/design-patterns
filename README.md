@@ -5,7 +5,7 @@ Estudo sobre design patterns com csharp
 - [x] Template
 - [x] Interpreter
 - [x] Observer
-- [ ] Visitor
+- [x] Visitor
 - [x] Command
 - [ ] Strategy
 - [ ] Chain of Responsability
