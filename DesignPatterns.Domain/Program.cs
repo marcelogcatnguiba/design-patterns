@@ -90,10 +90,18 @@
 
 #region Command
 
-using DesignPatterns.Domain.PatternComportamental.Command;
+// using DesignPatterns.Domain.PatternComportamental.Command;
 
-var client = new Client();
+// var client = new Client();
 
-client.FalarComandos();
+// client.FalarComandos();
+
+#endregion
+
+#region Visitor
+
+using DesignPatterns.Domain.PatternComportamental.Visitor;
+
+Fiscal.CalcularImpostos();
 
 #endregion

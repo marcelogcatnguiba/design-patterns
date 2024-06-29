@@ -31,46 +31,30 @@ namespace DesignPatterns.Domain.PatternComportamental.Template
 
         private static List<Pessoa> GetPessoas()
         {
+            List<Acoes> acoesJose = 
+            [ 
+                new() { Sigla = "AAB", Qtde = 100, ValorUnitario = 10 },
+                new() { Sigla = "ACC", Qtde = 50, ValorUnitario = 34.5 }
+            ];
+
+            List<Acoes> acoesMaria = 
+            [ 
+                new() { Sigla = "CCC", Qtde = 90, ValorUnitario = 9 },
+                new() { Sigla = "KJS", Qtde = 99, ValorUnitario = 77 }
+            ];
+
             return new() 
             {
                 new Pessoa() 
                 {   Nome = "Jose", 
                     CPF = "245.245.245-09", 
-                    Acoes = new List<Acoes>() 
-                        {
-                            new() 
-                            {
-                                Sigla = "AAB",
-                                Qtde = 100,
-                                ValorUnitario = 10
-                            },
-                            new() 
-                            {
-                                Sigla = "ACC",
-                                Qtde = 50,
-                                ValorUnitario = 34.5
-                            },
-                        }
+                    Acoes = acoesJose
                 },
 
                 new Pessoa() 
                 {   Nome = "Maria", 
                     CPF = "245.245.245-09", 
-                    Acoes = new List<Acoes>() 
-                        {
-                            new() 
-                            {
-                                Sigla = "CCC",
-                                Qtde = 90,
-                                ValorUnitario = 9
-                            },
-                            new() 
-                            {
-                                Sigla = "KJS",
-                                Qtde = 99,
-                                ValorUnitario = 77
-                            },
-                        }
+                    Acoes = acoesMaria
                 }
             };
         }
