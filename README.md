@@ -7,7 +7,7 @@ Estudo sobre design patterns com csharp
 - [x] Observer
 - [x] Visitor
 - [x] Command
-- [ ] Strategy
+- [x] Strategy
 - [ ] Chain of Responsability
 - [ ] Iterator
 - [ ] Mediator

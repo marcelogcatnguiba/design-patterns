@@ -100,21 +100,30 @@
 
 #region Visitor
 
-using DesignPatterns.Domain.PatternComportamental.Visitor;
-using DesignPatterns.Domain.PatternComportamental.Visitor.Produtos;
+// using DesignPatterns.Domain.PatternComportamental.Visitor;
+// using DesignPatterns.Domain.PatternComportamental.Visitor.Produtos;
 
-List<ProdutoPerecivel> produtoPerecivels =
-[
-    new("Especiarias", 2500),
-    new("Poupas de frutas", 2000)
-];
+// List<ProdutoPerecivel> produtoPerecivels =
+// [
+//     new("Especiarias", 2500),
+//     new("Poupas de frutas", 2000)
+// ];
 
-List<ProdutoNaoPerecivel> produtoNaoPerecivels = 
-[
-    new("Antena WiFi", 500),
-    new("Perfume frances", 1000)
-];
+// List<ProdutoNaoPerecivel> produtoNaoPerecivels = 
+// [
+//     new("Antena WiFi", 500),
+//     new("Perfume frances", 1000)
+// ];
 
-Fiscal.CalcularImpostos(produtoPerecivels, produtoNaoPerecivels);
+// Fiscal.CalcularImpostos(produtoPerecivels, produtoNaoPerecivels);
 
 #endregion
+
+#region Strategy
+
+using DesignPatterns.Domain.PatternComportamental.Strategy;
+
+RotinaTaxaServicos.ExecutarRotina();
+
+#endregion
+
