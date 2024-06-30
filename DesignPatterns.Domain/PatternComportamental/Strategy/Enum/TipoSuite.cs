@@ -1,6 +1,6 @@
 namespace DesignPatterns.Domain.PatternComportamental.Strategy.Enum
 {
-    public enum PorcentagemServicos
+    public enum TipoSuite
     {
         Cobertura = 20,
         Master = 18,

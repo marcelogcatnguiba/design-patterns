@@ -8,8 +8,7 @@ namespace DesignPatterns.Domain.PatternComportamental.Strategy.Services
         private readonly Orcamento _orcamento = orcamento;
         public void CalcularServico()
         {
-            var porcentagemServico = _orcamento.ValorTotal * ((double)_orcamento.Porcentagem / 100);
-            _orcamento.ValorTotal += porcentagemServico;
+            var taxaSuite = CalculaTaxaServicos.AplicarTaxaSuite(_orcamento);
 
             if(_orcamento.QtdeDias >  60)
             {
@@ -23,7 +22,7 @@ namespace DesignPatterns.Domain.PatternComportamental.Strategy.Services
             System.Console.WriteLine
             (
                 $"Tipo quarto: {_orcamento.Porcentagem}\n" +
-                $"Porcentagem Servico: {porcentagemServico:C}\n" +
+                $"Porcentagem Servico: {taxaSuite:C}\n" +
                 $"Quant. Dias: {_orcamento.QtdeDias}\n" +
                 $"Valor dia: {_orcamento.ValorDiaria}\n" +
                 $"Valor Total: {_orcamento.ValorTotal}\n"

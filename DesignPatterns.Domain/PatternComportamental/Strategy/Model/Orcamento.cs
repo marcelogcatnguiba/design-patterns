@@ -9,9 +9,9 @@ namespace DesignPatterns.Domain.PatternComportamental.Strategy.Model
         public int QtdeDias { get; set; }
         public double ValorTotal { get; set; }
         public bool CupomDesconto { get; set; } = false;
-        public PorcentagemServicos Porcentagem { get; set; }
+        public TipoSuite Porcentagem { get; set; }
 
-        public Orcamento(int idCliente, double valorDiaria, int qtdeDias, PorcentagemServicos porcentagem, bool cupomDesconto = false)
+        public Orcamento(int idCliente, double valorDiaria, int qtdeDias, TipoSuite porcentagem, bool cupomDesconto = false)
         {
             IdCliente = idCliente;
             ValorDiaria = valorDiaria;
@@ -26,6 +26,5 @@ namespace DesignPatterns.Domain.PatternComportamental.Strategy.Model
         {
            ValorTotal = ValorDiaria * QtdeDias;
         }
-
     }
 }
