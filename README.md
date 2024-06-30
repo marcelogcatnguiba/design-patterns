@@ -10,8 +10,8 @@ Estudo sobre design patterns com csharp
 - [x] Strategy
 - [x] Chain of Responsability
 - [x] Iterator
-- [ ] Mediator
-- [ ] Memento
+- [x] Mediator
+- [x] Memento
 - [x] State
 
 ## Patterns Criacionais

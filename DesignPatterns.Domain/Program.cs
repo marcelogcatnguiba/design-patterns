@@ -147,9 +147,17 @@ using DesignPatterns.Domain.PatternComportamental.ChainOfResponsability;
 #endregion
 
 #region Memento
-using DesignPatterns.Domain.PatternComportamental.Memento;
 
-Videocassete.ExecutarAcaoVideo();
+// using DesignPatterns.Domain.PatternComportamental.Memento;
+
+// Videocassete.ExecutarAcaoVideo();
 
 #endregion
 
+#region Mediator
+
+using DesignPatterns.Domain.PatternComportamental.Mediator;
+
+Chat.Conversar();
+
+#endregion
