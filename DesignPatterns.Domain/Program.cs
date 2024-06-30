@@ -140,9 +140,16 @@ using DesignPatterns.Domain.PatternComportamental.ChainOfResponsability;
 
 #region Iterator
 
-using DesignPatterns.Domain.PatternComportamental.Iterator;
+// using DesignPatterns.Domain.PatternComportamental.Iterator;
 
-Cliente.ConsumirEstrutura();
+// Cliente.ConsumirEstrutura();
+
+#endregion
+
+#region Memento
+using DesignPatterns.Domain.PatternComportamental.Memento;
+
+Videocassete.ExecutarAcaoVideo();
 
 #endregion
 
