@@ -121,9 +121,18 @@
 
 #region Strategy
 
-using DesignPatterns.Domain.PatternComportamental.Strategy;
+// using DesignPatterns.Domain.PatternComportamental.Strategy;
 
-RotinaTaxaServicos.ExecutarRotina();
+// RotinaTaxaServicos.ExecutarRotina();
 
 #endregion
 
+#region Chain
+
+using DesignPatterns.Domain.PatternComportamental.ChainOfResponsability;
+
+var sender = new Sender();
+
+sender.RealizarCheckout();
+
+#endregion

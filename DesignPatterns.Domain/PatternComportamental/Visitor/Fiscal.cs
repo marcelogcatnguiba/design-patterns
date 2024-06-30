@@ -12,12 +12,10 @@ namespace DesignPatterns.Domain.PatternComportamental.Visitor
             System.Console.WriteLine("Calculando imposto produtos NAO pereciveis:\n");
             CalcularProdutosPereciveis(produtoPerecivels);
             
-
             System.Console.WriteLine(new String('-', 40));
 
             System.Console.WriteLine("Calculando imposto produtos pereciveis:\n");
             CalcularProdutosNaoPereciveis(produtoNaoPerecivels);
-            
         }
 
         private static void CalcularProdutosNaoPereciveis(List<ProdutoNaoPerecivel> produtoNaoPerecivels)
