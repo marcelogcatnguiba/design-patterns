@@ -129,10 +129,20 @@
 
 #region Chain
 
+using System.Transactions;
 using DesignPatterns.Domain.PatternComportamental.ChainOfResponsability;
 
-var sender = new Sender();
+// var sender = new Sender();
 
-sender.RealizarCheckout();
+// sender.RealizarCheckout();
 
 #endregion
+
+#region Iterator
+
+using DesignPatterns.Domain.PatternComportamental.Iterator;
+
+Cliente.ConsumirEstrutura();
+
+#endregion
+

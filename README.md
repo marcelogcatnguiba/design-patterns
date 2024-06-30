@@ -8,8 +8,8 @@ Estudo sobre design patterns com csharp
 - [x] Visitor
 - [x] Command
 - [x] Strategy
-- [ ] Chain of Responsability
-- [ ] Iterator
+- [x] Chain of Responsability
+- [x] Iterator
 - [ ] Mediator
 - [ ] Memento
 - [x] State
